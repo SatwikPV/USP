@@ -1,0 +1,1091 @@
+sScript started on 2022-11-15 11:40:44+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ geid[K[Kdit file2[K1.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cat fie[Kle.[K1.txt
+This is a sample file. 
+This is line 2.
+
+This is another line.
+This file was created using gedit.
+
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cat > file.txt[K[K[K[K2.txt
+hell  o  , thisis     is te s   he secod nd l file.
+^Z
+[1]+  Stopped                 cat > file2.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ca[K[Kcat file2.txt
+hello, this is the second file.
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ touch fie[Kle3.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp fie[Kle2.txt file.[K3.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cat fie[Kle3.txt
+hello, this is the second file.
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ mkdir dir1
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ kdir [K[K[K[K[Kmkdir[K[K[K[K[Kdc [K[K[Kcp file2.tx [Kt dir1/file3.tt[Ky[Kxt[K[K[K[K[K4.xt==[K[K[K[Ktxt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cd dir1[K[K[K[K[K[Kat dir1/file34[K[K4.txt
+hello, this is the second file.
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cd dir1
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ cdp[K [K[K[Kcat > file5.txt
+Tis  s he content jere    e here wl  ill   will be copyi  ies   d into th ep   e prv  e  pae rent dir.
+^Z
+[2]+  Stopped                 cat > file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ cat[K[K[Kcp l[K[K file.[K.5 /satwik[K[K[K[K[K[K[K/satwik[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp file5.txt ..
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ ..[K[Kcd ..
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls
+[0m[01;34mdir1[0m  file1.txt  file2.txt  file3.txt  file5.txt  lab2  typescript
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cat fle[K[Kile5.txt
+The content here will be copied into the parent dir.
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ kri[K[K[Kmkdir dir2
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cd dir1
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ cp file5.txt ../dir2
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ ls
+file4.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ cat ../dir2
+cat: ../dir2: Is a directory
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ cat ../dir2/di[K[Kfile5.txt
+The content here will be copied into the parent dir.
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ cd dir[K[K[K[K[K[Kca[K[Kls
+file4.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ cp [K[K[Kc;ear
+c: command not found
+
+Command 'ear' not found, but can be installed with:
+
+sudo apt install ecere-dev
+
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ clear
+[H[2J[3J]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ ls
+file4.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ clear
+[H[2J[3J]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ ls[K[Kcat .[K>  file6.xy[K[Kyxx[K[K[Ktxt
+Hi  THis     his text was          file was copied in to       into dir2 udis   sing absolute address
+^Z
+[3]+  Stopped                 cat > file6.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ ca[K [Kp file6.txt ~/satwik/dir2
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ dir [K[K[K[Kcat ../dir2
+cat: ../dir2: Is a directory
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ cat ../sdir2[K[K[K[K[Kdir2/fle[K[Kile6.txt
+This file was copied into dir2 using absolute address
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir1[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir1[00m$ c[Kcd ..
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ mkdir dir2[K3
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ touch file [K1 file [K2 file [K[K[K[K[K[K[K[K[K[K[K[K.txt tile[K[K[K[Kfile2.txt file3.txt yo[K[Kyod[K[K[Kcode.1 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K1. 
+txxt [K[K[K[Kxt coe[Kdd[Ke2.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ c;[K[Ks[Kls
+code1.txt  [0m[01;34mdir1[0m  [01;34mdir3[0m       file2.txt  file5.txt  typescript
+code2.txt  [01;34mdir2[0m  file1.txt  file3.txt  lab2
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp file [K[K[K[K[K[K[K[Kls [K[K[Ko[Kmv [K[K[Kclear
+[H[2J[3J]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls
+[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  lab2  typescript
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls[K[Kcd dir4[K3
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir3[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir3[00m$ clear
+[H[2J[3J]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir3[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir3[00m$ ls
+code1.txt  code2.txt  file1.txt  file2.txt  file3.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir3[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir3[00m$ cp ch[Kod* ../dr[Kr[Kir2[K[K[K[Kcopies[Kdfiles
+cp: target '../copiedfiles' is not a directory
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir3[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir3[00m$ cp code* ../dir2
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir3[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir3[00m$ c;ear[K[K[K[K[Kcd ..//[Kidr[K[K[Kdi2[Kr2
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir2[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir2[00m$ cl[K[Kls
+code1.txt  code2.txt  file5.txt  file6.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir2[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir2[00m$ cd[K[ [K[Kp [K[K[Kclear
+[H[2J[3J]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir2[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir2[00m$ co [K[Kp ../dir3 fie[K[K[Kcopt[Ky1.t[K[K[K[K[K[K[K[K/dir3.[K[K[K[K[Kcode[K* .[1@i[1P[1@-[1@i[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C
+cp: overwrite './code1.txt'? y
+cp: overwrite './code2.txt'? y
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir2[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir2[00m$ man cp
+[?1049h[22;0;0t[?1h=
+CP(1)                            User Commands                           CP(1)[m
+[m
+[1mNAME[0m[m
+       cp - copy files and directories[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcp[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-a[0m, [1m--archive[0m[m
+              same as [1m-dR[0m [1m--preserve[0m=[4mall[24m[m
+[m
+       [1m--attributes-only[0m[m
+              don't copy the file data, just the attributes[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              make a backup of each existing destination file[m
+[7m Manual page cp(1) line 2 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 3 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[7m Manual page cp(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--copy-contents[0m[m
+[7m Manual page cp(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              copy contents of special files when recursive[m
+[7m Manual page cp(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlinks[24m[m
+[7m Manual page cp(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-f[0m, [1m--force[0m[m
+[7m Manual page cp(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              if an existing destination file cannot be opened, remove it  and[m
+[7m Manual page cp(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              try  again  (this  option  is ignored when the [1m-n[0m option is also[m
+[7m Manual page cp(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              used)[m
+[7m Manual page cp(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-i[0m, [1m--interactive[0m[m
+[7m Manual page cp(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              prompt before overwrite (overrides a previous [1m-n[0m option)[m
+[7m Manual page cp(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-H[0m     follow command-line symbolic links in SOURCE[m
+[7m Manual page cp(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-l[0m, [1m--link[0m[m
+[7m Manual page cp(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              hard link files instead of copying[m
+[7m Manual page cp(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 23 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-L[0m, [1m--dereference[0m[m
+[7m Manual page cp(1) line 24 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              always follow symbolic links in SOURCE[m
+[7m Manual page cp(1) line 25 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 26 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-n[0m, [1m--no-clobber[0m[m
+[7m Manual page cp(1) line 27 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              do not overwrite an existing file (overrides a previous  [1m-i[0m  op‐[m
+[7m Manual page cp(1) line 28 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tion)[m
+[7m Manual page cp(1) line 29 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 30 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-P[0m, [1m--no-dereference[0m[m
+[7m Manual page cp(1) line 31 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              never follow symbolic links in SOURCE[m
+[7m Manual page cp(1) line 32 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 33 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-p[0m     same as [1m--preserve[0m=[4mmode[24m,ownership,timestamps[m
+[7m Manual page cp(1) line 34 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 35 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--preserve[0m[=[4mATTR_LIST[24m][m
+[7m Manual page cp(1) line 36 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              preserve the specified attributes (default: mode,ownership,time‐[m
+[7m Manual page cp(1) line 37 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              stamps), if  possible  additional  attributes:  context,  links,[m
+[7m Manual page cp(1) line 38 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              xattr, all[m
+[7m Manual page cp(1) line 39 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 40 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--no-preserve[0m=[4mATTR_LIST[24m[m
+[7m Manual page cp(1) line 41 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              don't preserve the specified attributes[m
+[7m Manual page cp(1) line 42 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 43 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--parents[0m[m
+[7m Manual page cp(1) line 44 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              use full source file name under DIRECTORY[m
+[7m Manual page cp(1) line 45 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 46 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-R[0m, [1m-r[0m, [1m--recursive[0m[m
+[7m Manual page cp(1) line 47 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              copy directories recursively[m
+[7m Manual page cp(1) line 48 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 49 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--reflink[0m[=[4mWHEN[24m][m
+[7m Manual page cp(1) line 50 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              control clone/CoW copies. See below[m
+[7m Manual page cp(1) line 51 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 52 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--remove-destination[0m[m
+[7m Manual page cp(1) line 53 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              remove  each existing destination file before attempting to open[m
+[7m Manual page cp(1) line 54 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              it (contrast with [1m--force[0m)[m
+[7m Manual page cp(1) line 55 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 56 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--sparse[0m=[4mWHEN[24m[m
+[7m Manual page cp(1) line 57 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              control creation of sparse files. See below[m
+[7m Manual page cp(1) line 58 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 59 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--strip-trailing-slashes[0m[m
+[7m Manual page cp(1) line 60 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              remove any trailing slashes from each SOURCE argument[m
+[7m Manual page cp(1) line 61 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 62 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-s[0m, [1m--symbolic-link[0m[m
+[7m Manual page cp(1) line 63 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              make symbolic links instead of copying[m
+[7m Manual page cp(1) line 64 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 65 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
+[7m Manual page cp(1) line 66 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              override the usual backup suffix[m
+[7m Manual page cp(1) line 67 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 68 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-t[0m, [1m--target-directory[0m=[4mDIRECTORY[24m[m
+[7m Manual page cp(1) line 69 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              copy all SOURCE arguments into DIRECTORY[m
+[7m Manual page cp(1) line 70 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 71 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-T[0m, [1m--no-target-directory[0m[m
+[7m Manual page cp(1) line 72 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              treat DEST as a normal file[m
+[7m Manual page cp(1) line 73 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 74 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-u[0m, [1m--update[0m[m
+[7m Manual page cp(1) line 75 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              copy only when the SOURCE file is  newer  than  the  destination[m
+[7m Manual page cp(1) line 76 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              file or when the destination file is missing[m
+[7m Manual page cp(1) line 77 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 78 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-v[0m, [1m--verbose[0m[m
+[7m Manual page cp(1) line 79 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              explain what is being done[m
+[7m Manual page cp(1) line 80 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 81 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-x[0m, [1m--one-file-system[0m[m
+[7m Manual page cp(1) line 82 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              stay on this file system[m
+[7m Manual page cp(1) line 83 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 84 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-Z[0m     set SELinux security context of destination file to default type[m
+[7m Manual page cp(1) line 85 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 86 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--context[0m[=[4mCTX[24m][m
+[7m Manual page cp(1) line 87 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              like  [1m-Z[0m,  or  if CTX is specified then set the SELinux or SMACK[m
+[7m Manual page cp(1) line 88 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              security context to CTX[m
+[7m Manual page cp(1) line 89 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 90 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--help[0m display this help and exit[m
+[7m Manual page cp(1) line 91 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 92 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--version[0m[m
+[7m Manual page cp(1) line 93 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              output version information and exit[m
+[7m Manual page cp(1) line 94 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 95 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       By default, sparse SOURCE files are detected by a crude  heuristic  and[m
+[7m Manual page cp(1) line 96 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the corresponding DEST file is made sparse as well.  That is the behav‐[m
+[7m Manual page cp(1) line 97 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ior selected by [1m--sparse[0m=[4mauto[24m.  Specify  [1m--sparse[0m=[4malways[24m  to  create  a[m
+[7m Manual page cp(1) line 98 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       sparse  DEST  file  whenever the SOURCE file contains a long enough se‐[m
+[7m Manual page cp(1) line 99 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       quence of zero bytes.  Use [1m--sparse[0m=[4mnever[24m to inhibit creation of sparse[m
+[7m Manual page cp(1) line 100 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       files.[m
+[7m Manual page cp(1) line 101 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 102 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       When [1m--reflink[0m[=[4malways[24m] is specified, perform a lightweight copy, where[m
+[7m Manual page cp(1) line 103 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the data blocks are copied only when modified.  If this is not possible[m
+[7m Manual page cp(1) line 104 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the copy fails, or if [1m--reflink[0m=[4mauto[24m is specified, fall back to a stan‐[m
+[7m Manual page cp(1) line 105 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       dard copy.  Use [1m--reflink[0m=[4mnever[24m to ensure a standard copy is performed.[m
+[7m Manual page cp(1) line 106 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 107 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The  backup  suffix  is  '~',  unless  set  with   [1m--suffix[0m   or   SIM‐[m
+[7m Manual page cp(1) line 108 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       PLE_BACKUP_SUFFIX.   The version control method may be selected via the[m
+[7m Manual page cp(1) line 109 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--backup[0m option or through the  VERSION_CONTROL  environment  variable.[m
+[7m Manual page cp(1) line 110 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Here are the values:[m
+[7m Manual page cp(1) line 111 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 112 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       none, off[m
+[7m Manual page cp(1) line 113 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              never make backups (even if [1m--backup[0m is given)[m
+[7m Manual page cp(1) line 114 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 115 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       numbered, t[m
+[7m Manual page cp(1) line 116 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              make numbered backups[m
+[7m Manual page cp(1) line 117 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cp(1) line 118 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 117 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              output version information and exit[m
+[24;1H
+[K[7m Manual page cp(1) line 116 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--version[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 115 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 114 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--help[0m display this help and exit[m
+[24;1H
+[K[7m Manual page cp(1) line 113 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 112 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              security context to CTX[m
+[24;1H
+[K[7m Manual page cp(1) line 111 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              like  [1m-Z[0m,  or  if CTX is specified then set the SELinux or SMACK[m
+[24;1H
+[K[7m Manual page cp(1) line 110 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--context[0m[=[4mCTX[24m][m
+[24;1H
+[K[7m Manual page cp(1) line 109 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 108 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-Z[0m     set SELinux security context of destination file to default type[m
+[24;1H
+[K[7m Manual page cp(1) line 107 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 106 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              stay on this file system[m
+[24;1H
+[K[7m Manual page cp(1) line 105 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-x[0m, [1m--one-file-system[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 104 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 103 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              explain what is being done[m
+[24;1H
+[K[7m Manual page cp(1) line 102 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-v[0m, [1m--verbose[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 101 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 100 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              file or when the destination file is missing[m
+[24;1H
+[K[7m Manual page cp(1) line 99 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              copy only when the SOURCE file is  newer  than  the  destination[m
+[24;1H
+[K[7m Manual page cp(1) line 98 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-u[0m, [1m--update[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 97 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 96 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              treat DEST as a normal file[m
+[24;1H
+[K[7m Manual page cp(1) line 95 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-T[0m, [1m--no-target-directory[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 94 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 93 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              copy all SOURCE arguments into DIRECTORY[m
+[24;1H
+[K[7m Manual page cp(1) line 92 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-t[0m, [1m--target-directory[0m=[4mDIRECTORY[24m[m
+[24;1H
+[K[7m Manual page cp(1) line 91 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 90 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              override the usual backup suffix[m
+[24;1H
+[K[7m Manual page cp(1) line 89 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
+[24;1H
+[K[7m Manual page cp(1) line 88 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 87 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              make symbolic links instead of copying[m
+[24;1H
+[K[7m Manual page cp(1) line 86 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-s[0m, [1m--symbolic-link[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 85 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 84 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              remove any trailing slashes from each SOURCE argument[m
+[24;1H
+[K[7m Manual page cp(1) line 83 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--strip-trailing-slashes[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 82 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 81 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              control creation of sparse files. See below[m
+[24;1H
+[K[7m Manual page cp(1) line 80 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--sparse[0m=[4mWHEN[24m[m
+[24;1H
+[K[7m Manual page cp(1) line 79 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 78 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              it (contrast with [1m--force[0m)[m
+[24;1H
+[K[7m Manual page cp(1) line 77 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              remove  each existing destination file before attempting to open[m
+[24;1H
+[K[7m Manual page cp(1) line 76 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--remove-destination[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 75 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 74 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              control clone/CoW copies. See below[m
+[24;1H
+[K[7m Manual page cp(1) line 73 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--reflink[0m[=[4mWHEN[24m][m
+[24;1H
+[K[7m Manual page cp(1) line 72 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 71 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              copy directories recursively[m
+[24;1H
+[K[7m Manual page cp(1) line 70 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-R[0m, [1m-r[0m, [1m--recursive[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 69 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 68 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              use full source file name under DIRECTORY[m
+[24;1H
+[K[7m Manual page cp(1) line 67 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--parents[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 66 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 65 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              don't preserve the specified attributes[m
+[24;1H
+[K[7m Manual page cp(1) line 64 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--no-preserve[0m=[4mATTR_LIST[24m[m
+[24;1H
+[K[7m Manual page cp(1) line 63 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 62 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              xattr, all[m
+[24;1H
+[K[7m Manual page cp(1) line 61 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              stamps), if  possible  additional  attributes:  context,  links,[m
+[24;1H
+[K[7m Manual page cp(1) line 60 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              preserve the specified attributes (default: mode,ownership,time‐[m
+[24;1H
+[K[7m Manual page cp(1) line 59 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--preserve[0m[=[4mATTR_LIST[24m][m
+[24;1H
+[K[7m Manual page cp(1) line 58 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 57 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-p[0m     same as [1m--preserve[0m=[4mmode[24m,ownership,timestamps[m
+[24;1H
+[K[7m Manual page cp(1) line 56 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 55 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              never follow symbolic links in SOURCE[m
+[24;1H
+[K[7m Manual page cp(1) line 54 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-P[0m, [1m--no-dereference[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 53 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 52 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              tion)[m
+[24;1H
+[K[7m Manual page cp(1) line 51 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              do not overwrite an existing file (overrides a previous  [1m-i[0m  op‐[m
+[24;1H
+[K[7m Manual page cp(1) line 50 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-n[0m, [1m--no-clobber[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 49 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 48 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              always follow symbolic links in SOURCE[m
+[24;1H
+[K[7m Manual page cp(1) line 47 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-L[0m, [1m--dereference[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 46 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 45 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              hard link files instead of copying[m
+[24;1H
+[K[7m Manual page cp(1) line 44 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-l[0m, [1m--link[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 43 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 42 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-H[0m     follow command-line symbolic links in SOURCE[m
+[24;1H
+[K[7m Manual page cp(1) line 41 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 40 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              prompt before overwrite (overrides a previous [1m-n[0m option)[m
+[24;1H
+[K[7m Manual page cp(1) line 39 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-i[0m, [1m--interactive[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 38 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 37 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              used)[m
+[24;1H
+[K[7m Manual page cp(1) line 36 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              try  again  (this  option  is ignored when the [1m-n[0m option is also[m
+[24;1H
+[K[7m Manual page cp(1) line 35 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              if an existing destination file cannot be opened, remove it  and[m
+[24;1H
+[K[7m Manual page cp(1) line 34 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-f[0m, [1m--force[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 33 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 32 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlinks[24m[m
+[24;1H
+[K[7m Manual page cp(1) line 31 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 30 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              copy contents of special files when recursive[m
+[24;1H
+[K[7m Manual page cp(1) line 29 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--copy-contents[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 28 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 27 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[24;1H
+[K[7m Manual page cp(1) line 26 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 25 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              make a backup of each existing destination file[m
+[24;1H
+[K[7m Manual page cp(1) line 24 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--backup[0m[=[4mCONTROL[24m][m
+[24;1H
+[K[7m Manual page cp(1) line 23 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              don't copy the file data, just the attributes[m
+[24;1H
+[K[7m Manual page cp(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m--attributes-only[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              same as [1m-dR[0m [1m--preserve[0m=[4mall[24m[m
+[24;1H
+[K[7m Manual page cp(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1m-a[0m, [1m--archive[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       too.[m
+[24;1H
+[K[7m Manual page cp(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       Mandatory  arguments  to  long  options are mandatory for short options[m
+[24;1H
+[K[7m Manual page cp(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.[m
+[24;1H
+[K[7m Manual page cp(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mDESCRIPTION[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1mcp[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[24;1H
+[K[7m Manual page cp(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+[24;1H
+[K[7m Manual page cp(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1mcp[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+[24;1H
+[K[7m Manual page cp(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mSYNOPSIS[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       cp - copy files and directories[m
+[24;1H
+[K[7m Manual page cp(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mNAME[0m[m
+[24;1H
+[K[7m Manual page cp(1) line 3 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cp(1) line 2 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HMCP(1)                            User Commands                           CP(1)[m
+[24;1H
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir2[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir2[00m$ cp[Kp i[K- [Ki dir[K[K[K[K[K[K[K[K[Kcd ..
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp i[K-i c[Kdie[Kr 2[K[K2 dir3 until[K[K[K[K[K[K[K[K[K[K
+cp: missing destination file operand after 'dir2'
+Try 'cp --help' for more information.
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ c i[K[Kp -i dir [K2 dir3
+cp: -r not specified; omitting directory 'dir2'
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ;s
+bash: syntax error near unexpected token `;'
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ;;[K[Kls
+[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  lab2  typescript
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cd dir
+bash: cd: dir: No such file or directory
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cd [K[K[Kls /di[K[K[Kdir2
+code1.txt  code2.txt  file5.txt  file6.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ clear
+[H[2J[3J]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp dir[K[K[K-i di r[K[Kr2 until
+cp: -r not specified; omitting directory 'dir2'
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ c [Kp 0 [K[K-[K-i di r[K2 [K[K[K[Kir [K 2[K[K2 di r[K[Kr2[K3
+cp: -r not specified; omitting directory 'dir2'
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp [K[K[Kl [Ks dir3
+code1.txt  code2.txt  file1.txt  file2.txt  file3.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp dir[K[K[K-r dir [K3 dir2
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ s[Kls dir2
+code1.txt  code2.txt  [0m[01;34mdir3[0m  file5.txt  file6.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls
+[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  lab2  typescript
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls dir3
+code1.txt  code2.txt  file1.txt  file2.txt  file3.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cd[K[Kls dir2/do[Kir3
+code1.txt  code2.txt  file1.txt  file2.txt  file3.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ clear
+[H[2J[3J]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp -[K[K[K[Kcd [K[K[Krmi[Kdir dir2/dir3 [1@-[1@f[1@ 
+rmdir: invalid option -- 'f'
+Try 'rmdir --help' for more information.
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ rmdir dir2.[K/dir3
+rmdir: failed to remove 'dir2/dir3': Directory not empty
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp -r dir3 dr2[K[Kir2
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls dir2
+code1.txt  code2.txt  [0m[01;34mdir3[0m  file5.txt  file6.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ clear
+[H[2J[3J]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ dir[K[K[Kmkdir dir4
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp -r dir2 dir4
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ sl[Kls[K[K[Kls dir4
+[0m[01;34mdir2[0m
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp dir2 ci[K[Kdir4
+cp: -r not specified; omitting directory 'dir2'
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls dir2[K4
+[0m[01;34mdir2[0m
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cp dir2 [K/* dir4
+cp: -r not specified; omitting directory 'dir2/dir3'
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ clear[K[K[K[K[Kls dir4
+code1.txt  code2.txt  [0m[01;34mdir2[0m  file5.txt  file6.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ rm dir2/file[K[K[K[Kcode[K[K[K[Kfile5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls dir2
+code1.txt  code2.txt  [0m[01;34mdir3[0m  file6.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ rm dir2/*
+rm: cannot remove 'dir2/dir3': Is a directory
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ s[Kls
+[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  lab2  typescript
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls dir2
+[0m[01;34mdir3[0m
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ r[Km[Kd[Kls idr [K[K[Kdi[K[K[K[K id[K[Kdir [K3
+code1.txt  code2.txt  file1.txt  file2.txt  file3.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ mv dir2[K3/code1.tt[Kxt cdo[K[K[Krenma[K[K[K[Kenam[K[K[K[K[Knewfile.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ mc [K[Kv dir4 dirnew
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ ls
+[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdirnew[0m  lab2  newfile.txt  typescript
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ file dir3.[K/file[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls dir3
+code2.txt  file1.txt  file2.txt  file3.txt  file5.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ fil [Ke fi[K[Kdir3/file3.[K[K1.tx
+dir3/file1.tx: cannot open `dir3/file1.tx' (No such file or directory)
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ file [K[K[K[K[Kfile dir3/file1.txt
+dir3/file1.txt: ASCII text
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ wc fir[K[K[Kdr[Kir3/file1.x[Ktxt
+ 6 19 99 dir3/file1.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ od --[K[K-b dir3/file1.txt
+0000000 124 150 151 163 040 151 163 040 141 040 163 141 155 160 154 145
+0000020 040 146 151 154 145 056 040 012 124 150 151 163 040 151 163 040
+0000040 154 151 156 145 040 062 056 012 012 124 150 151 163 040 151 163
+0000060 040 141 156 157 164 150 145 162 040 154 151 156 145 056 012 124
+0000100 150 151 163 040 146 151 154 145 040 167 141 163 040 143 162 145
+0000120 141 164 145 144 040 165 163 151 156 147 040 147 145 144 151 164
+0000140 056 012 012
+0000143
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ cat > dir3/[K[K[K[K[K[K[K[K[K[K[Kcdiff[K[K[K[K[Kf[Kdiff file1. [K[K.txt file2.txt
+diff: file1.txt: No such file or directory
+diff: file2.txt: No such file or directory
+]0;bmsce@bmsce-Precision-T1700: ~/satwik[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik[00m$ diff dir3/[K[K[K[K[K[K[K[K[K[Kcd dir3
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir3[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir3[00m$ diff file3.[K[K1.tt[Kxt file.[K2.txt
+1,6c1
+< This is a sample file. 
+< This is line 2.
+< 
+< This is another line.
+< This file was created using gedit.
+< 
+---
+> hello, this is the second file.
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir3[01;32mbmsce@bmsce-Precision-T1700[00m:[01;34m~/satwik/dir3[00m$ gzip d[Kfile1.txt
+]0;bmsce@bmsce-Precision-T1700: ~/satwik/dir3[01;32mbmsce@bmsce-Precision
